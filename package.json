@@ -1,0 +1,25 @@
+{
+  "name": "html-template-template",
+  "version": "1.0.0",
+  "description": "Base Structure for creating new HTML Templates",
+  "main": "dist/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seriousali/HTML-Template-Template.git"
+  },
+  "keywords": [
+    "template",
+    "html",
+    "scss",
+    "gulp"
+  ],
+  "author": "https://alishaan.work",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seriousali/HTML-Template-Template/issues"
+  },
+  "homepage": "https://github.com/seriousali/HTML-Template-Template#readme"
+}
