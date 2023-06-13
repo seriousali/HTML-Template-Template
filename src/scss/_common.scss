@@ -1,0 +1,71 @@
+/* Global styles
+================================================== */
+
+html {
+  overflow-x: hidden !important;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.body-inner {
+  position: relative;
+  overflow: hidden;
+}
+
+.preload {
+  position: fixed;
+  background: $color-white url(../img/preload.gif) center center no-repeat;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a {
+  color: inherit;
+  transition: .2s ease;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+a.read-more {
+  color: $color-primary;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+a.read-more:hover {
+  color: $color-black;
+}
+a[href^=tel] {
+  color: inherit;
+  text-decoration: none;
+}
+
+section,
+.section-padding {
+  padding: 70px 0;
+  position: relative;
+}
+
+.no-padding {
+  padding: 0;
+}
